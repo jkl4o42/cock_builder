@@ -55,7 +55,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.jkl4o4"
                 artifactId = "cocktail-builder"
-                version = "0.0.1"
+                version = "0.0.2"
                 from(components["release"])
             }
         }
